@@ -33,8 +33,9 @@
   ==== Stuff that I still need to do                                        ====
   ==============================================================================
 
-- I do not understand time signatures or how they relate to tempo, so I am not
-  sure if I programmed the tempo correctly.  I think it sounds fine though.
+- I am not a musician and I do not understand time signatures or how they relate
+  to tempo, so I am not sure if I programmed the tempo correctly.  I think it
+  sounds fine though.
 
 - Sharps and flats do not work outside the key.  This will need to be fixed.
   However, sharps and flats can be used freely if the key is set to UNKNOWN.
