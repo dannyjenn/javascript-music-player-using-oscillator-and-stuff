@@ -1,0 +1,32 @@
+@font-face{
+    font-family:"MusiQwik";
+    src:url('musiqwik.ttf');
+}
+@font-face{
+    font-family:"MusiQwik";
+    src:url('musiqwikb.ttf');
+    font-weight:bold;
+}
+.main{
+    margin: 0 auto;
+    width:640px;
+}
+.syllable{
+    display:inline-block;
+    margin-bottom:0.6em;
+    margin-left:0px;
+    margin-right:0px;
+}
+.music{
+    font-family:"MusiQwik";
+    font-size:2em;
+    display:block;
+    height:1.8em;
+    text-align:center;
+}
+.word{
+    font-size:1em;
+    display:block;
+    height:1.2em;
+    text-align:center;
+}
