@@ -23,9 +23,9 @@
   But if you do want the sheet music, you will also need music_style.css, 
   sheet_music.js, and the two font files: musiqwik.ttf and musiquikb.ttf
 
-- I did not make the font.
+- I did not make the musical notation font.
 
-- Everything other than the font is my work, and is in the public domain.
+- Everything else is my work, and in the public domain.
 
 - Demo: https://pacobell15.neocities.org/music/other/demo/demo_sheet_music
         https://pacobell15.neocities.org/music/other/demo/demo_music_player
