@@ -2,16 +2,20 @@
   ====    Read me                                                           ====
   ==============================================================================
 
-- This is a JavaScript program that I wrote, which plays music using the
-  oscillator.
+- This is a JavaScript program that I wrote, which plays music (it does this
+  using an OscillatorNode object to generate the tones).
 
-- Music data is kept in a JavaScript array, in the song.js file.  (This does not
-  play MIDI, but it's basically the same idea.)  Currently you need to input the
-  music data by hand, which is a tedious process.  I actually do it in a
-  spreadsheet.  Make sure all six arrays line up or else the program won't work.
+- Music data is kept in a a set of JavaScript arrays, in the song.js file.
+  (This program does not play MIDI, but it's basically the same idea. Or
+  actually, it's probably closer to the way chiptunes work.)  Currently you need
+  to input the music data by hand, which is a very tedious process.  I actually
+  do it in a spreadsheet. You need to make sure all six arrays "line up", or
+  else there will be problems.
 
 - As for settng things up, you basically just need to put all the files in the
-  same directory.  The two HTML files are examples of how this is done.
+  same directory.  The two HTML files are examples of how this is done.  The
+  JavaScript files are dependent upon one another, so they need to be added in
+  the correct order.  (Look in the HTML files to see how it's supposed to be.)
 
   If you don't want sheet music then you actually only need constants.js,
   functions.js, song.js, and music_player.js.
@@ -71,3 +75,6 @@
   sure the earlier scripts are parsed first.  I suppose I could just combine
   them all into one big JavaScript file, but I wanted it to be more modular.
   Maybe I'll combine them but just keep the song.js file separate.
+
+- I may eventually write a program to make it easier to input the music data.
+  This will probably be a necessity if I ever add multiple voices.
